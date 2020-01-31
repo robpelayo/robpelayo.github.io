@@ -18,10 +18,11 @@ body {
   align-items: center;
   justify-items: center;
   color: white;
+  /* background-color: purple; */
 }
 
 a:link {
-  color: yellow;
+  color: black;
 }
 
 a:visited {
@@ -31,13 +32,12 @@ a:visited {
 footer {
   position: fixed;
   bottom: 0;
-  right: 0;
+  left: 0;
 }
 
 .welcome {
 }
 .aboutme {
-  grid-column: span 1;
 }
 
 .runs {
@@ -49,7 +49,7 @@ footer {
 .links {
   text-align: left;
 }
-.navbar{
-.navbar-expand{
-  -sm|-md|-lg|-xl
-}}
+
+.dropdown-menu {
+  background-color: grey;
+}
