@@ -49,3 +49,7 @@ footer {
 .links {
   text-align: left;
 }
+.navbar{
+.navbar-expand{
+  -sm|-md|-lg|-xl
+}}
