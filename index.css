@@ -42,7 +42,7 @@ footer {
 
 .welcome {
 }
-.aboutme{
+.aboutme {
   grid-column: span 1;
 }
 
@@ -52,6 +52,6 @@ footer {
 .flags {
 }
 
-.links{
-  text-align: left; 
+.links {
+  text-align: left;
 }

@@ -1,0 +1,49 @@
+body {
+  font-family: "Open Sans";
+  background: lightgrey;
+}
+legend {
+  font-size: 30px;
+  color: black;
+  text-decoration: underline;
+  text-decoration-color: teal;
+}
+.form_background {
+  margin: auto;
+}
+.form_insides {
+  margin: auto;
+  position: center;
+  align-items: center;
+  align-content: center;
+  padding: 15px;
+  height: 560px;
+  width: 500px;
+}
+
+button {
+  color: white;
+  background-color: teal;
+  border: 0;
+  height: 25px;
+  width: 75px;
+}
+
+#inputname,
+#inputemail {
+  width: 250px;
+  border-radius: 5px;
+  padding: 5px;
+  margin-left: 5px;
+}
+#inputemail {
+  margin-left: 9px;
+}
+
+#comment {
+  border-radius: 5px;
+}
+
+button:hover {
+  color: rgba(0, 96, 255, 0.5);
+}
