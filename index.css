@@ -1,41 +1,51 @@
 body {
-    font-family: "Open Sans", sans-serif;
-    color: white;
-    background-image: url("https://images.unsplash.com/photo-1473773508845-188df298d2d1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80");
-  }
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  background-image: url("https://images.unsplash.com/photo-1473773508845-188df298d2d1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80");
+}
+
+.container {
+  display: grid;
+  /*   2fr is 2 fractional units   */
+  /*   repeat will repeat what's inside */
+  /*   grid-template-columns: repeat(3, 2fr); */
+  grid-template-columns: repeat(3, 450px);
+  grid-template-rows: repeat(3, 450px);
+  grid-gap: 5px;
+}
+
+.box {
+  font-family: sans-serif;
+  text-align: center;
+  align-items: center;
+  justify-items: center;
+  background-color: purple;
+  color: white;
+}
+
+a:link {
+  color: yellow;
+}
+
+a:visited {
+  color: silver;
+}
+
+footer {
+}
+
+.welcome {
+}
+.aboutme{
+  grid-column: span 1;
+}
+
+.runs {
+}
+
+.flags {
+}
+
+.projects {
   
-  a:link {
-    color: yellow;
-  }
-  
-  a:visited {
-    color: silver;
-  }
-  
-  .everything,
-  footer {
-    margin: auto;
-    height: 1100px;
-    width: 1300px;
-  }
-  
-  .row1,
-  .row2,
-  .row3 {
-    height: 200px;
-  }
-  
-  .col {
-    float: left;
-    width: 650px;
-  }
-  
-  .runs {
-    width: 600px;
-    float: left;
-  }
-  
-  .flags {
-    float: left;
-  }
-  
+}
