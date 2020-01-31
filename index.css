@@ -9,8 +9,10 @@ body {
   /*   2fr is 2 fractional units   */
   /*   repeat will repeat what's inside */
   /*   grid-template-columns: repeat(3, 2fr); */
-  grid-template-columns: repeat(3, 450px);
-  grid-template-rows: repeat(3, 450px);
+  grid-template-columns: repeat(3, 2fr);
+  grid-template-rows: repeat(3, 40% auto);
+  /* grid-template-columns: repeat(3, 450px); */
+  /* grid-template-rows: repeat(3, 450px); */
   grid-gap: 5px;
 }
 
