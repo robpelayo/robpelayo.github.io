@@ -6,4 +6,4 @@ Repository for my portfolio code.
 
 ## References
 
-http://grid.malven.co/
+Grid help: http://grid.malven.co/
