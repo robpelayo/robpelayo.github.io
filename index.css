@@ -1,4 +1,5 @@
 body {
+  height: 100;
   font-family: "Open Sans", sans-serif;
   color: white;
   background-image: url("https://images.unsplash.com/photo-1473773508845-188df298d2d1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1567&q=80");
@@ -21,7 +22,7 @@ body {
   text-align: center;
   align-items: center;
   justify-items: center;
-  background-color: purple;
+  /* background-color: purple; */
   color: white;
 }
 
@@ -34,6 +35,9 @@ a:visited {
 }
 
 footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
 }
 
 .welcome {
@@ -48,6 +52,6 @@ footer {
 .flags {
 }
 
-.projects {
-  
+.links{
+  text-align: left; 
 }
